@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suit SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name ="ccst_suite" verbose="1">
+    <groups>
+        <run>
+            <include name="SmokeTests"/>
+        </run>
+    </groups>
+    <test name = "SmokeTests">
+        <classes>
+            <class name="TestNGtest.Day_3_17_TestNG_Login_Sauce_Demo"/>
+
+
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Capstone_Project_Suite" parallel="false" verbose="1">
+    <test name="AllTestCases">
+        <classes>
+            <class name="shoping_Cart_Login"/>
+            <class name="Products_Selection"/>
+            <class name="RemoveOneItem"/>
+            <class name="Checkout_Item"/>
+            <class name="Filterprice"/>
+            <class name="Logout"/>
+        </classes>
+    </test>
+</suite>
